@@ -4,7 +4,7 @@ import Button from './shared/Button';
 const LoginScreen = () => {
   return (
       <div className='h-screen flex items-center justify-center'>
-        <div className="card w-[500px] h-[600px] shadow-xl pt-[200px] rounded-md bg-slate-200">
+        <div className="card flex items-center justify-center w-[500px] h-[500px] shadow-xl  rounded-md bg-slate-200">
             <form className='flex items-center flex-col gap-4'>
                 <div className="form-group flex flex-col gap-2">
                     <h1 className=' text-gray-400'>Username :</h1>
